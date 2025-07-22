@@ -4,6 +4,8 @@
 frontend/node_modules
 /.pnp
 .pnp.js
+backend/venv
+__pycache__/
 
 # testing
 /coverage
@@ -18,12 +20,12 @@ frontend/node_modules
 .env.test.local
 .env.production.local
 
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 #backend ignore
 .vscode
-.pyc
-\backend\__pycache__
-\backend\venv
+*.pyc
+
